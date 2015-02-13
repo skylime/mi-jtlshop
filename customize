@@ -7,6 +7,11 @@ PATH=/opt/local/gnu/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/usr/sbin
 # Exit if any commands fail
 set -o errexit
 
+# Create /var/www/shop/{htdocs,logs} folder
+echo "* Create /var/www/shop/{htdocs,logs} folder"
+mkdir -p /var/www/shop/{htdocs,logs}
+chown -R www:www /var/www/shop
+
 # Clean up
 echo "* Cleaning up."
 rm -rf /root/*
