@@ -5,3 +5,7 @@ Warning, this mibe image uses the 32bit base image because of some ionCube
 loader problem.
 
 This image is only for delopment usage!
+
+## services
+
+- `80/tcp`: nginx
