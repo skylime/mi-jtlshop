@@ -6,6 +6,11 @@ loader problem.
 
 This image is only for delopment usage!
 
+## mdata variables
+
+- `nginx_ssl`: ssl certificate for the web interface
+
 ## services
 
 - `80/tcp`: nginx
+- `443/tcp`: nginx
